@@ -1,0 +1,97 @@
+
+{
+  "modules": [
+    {
+      "name": "ModuleLabelShortcuts",
+      "config": {
+        "enabled": true
+      }
+    },
+    {
+      "name": "AnalyticsWidget",
+      "config": {
+        "enabled": true
+      }
+    },
+    {
+      "name": "ReportsSection",
+      "config": {
+        "enabled": true
+      }
+    },
+    {
+      "name": "DynamicContentArea",
+      "config": {
+        "enabled": true
+      }
+    },
+    {
+      "name": "CustomModulePlaceholder",
+      "config": {
+        "enabled": true
+      }
+    },
+    {
+      "name": "FixedBottomReport",
+      "config": {
+        "enabled": true
+      }
+    }
+  ],
+  "mockData": {
+    "ModuleLabelShortcuts": {
+      "shortcuts": [
+        { "label": "Dashboard", "link": "/dashboard" },
+        { "label": "Settings", "link": "/settings" },
+        { "label": "Profile", "link": "/profile" }
+      ]
+    },
+    "AnalyticsWidget": {
+      "summary": "Analytics Overview",
+      "metrics": [
+        { "name": "Total Sales", "value": "$45,000" },
+        { "name": "New Users", "value": "1,200" },
+        { "name": "Revenue", "value": "$12,000" }
+      ]
+    },
+    "ReportsSection": {
+      "reports": [
+        {
+          "title": "Monthly Sales Report",
+          "data": [
+            { "month": "January", "sales": "$10,000" },
+            { "month": "February", "sales": "$15,000" }
+          ]
+        },
+        {
+          "title": "User Growth Report",
+          "data": [
+            { "month": "January", "newUsers": 200 },
+            { "month": "February", "newUsers": 300 }
+          ]
+        }
+      ]
+    },
+    "DynamicContentArea": {
+      "content": [
+        { "type": "Text", "text": "Welcome to the workspace!" },
+        { "type": "Image", "src": "/images/sample.png", "alt": "Sample Image" }
+      ]
+    },
+    "CustomModulePlaceholder": {
+      "placeholderText": "Insert Custom Module Content Here",
+      "mockContent": "This is a placeholder for module-specific content."
+    },
+    "FixedBottomReport": {
+      "reports": [
+        {
+          "title": "Daily Summary",
+          "data": [
+            { "metric": "Tasks Completed", "value": "25" },
+            { "metric": "Pending Tasks", "value": "5" }
+          ]
+        }
+      ]
+    }
+  }
+}
